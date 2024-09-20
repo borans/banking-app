@@ -1,0 +1,11 @@
+version: '27.1.1'
+
+services:
+  app:
+    image: 'banking-app:latest'
+    build:
+      context:
+    container_name: banking-app
+    ports:
+      - "9090:8080"
+
